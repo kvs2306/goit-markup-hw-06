@@ -1,0 +1,67 @@
+form class="modal-form">
+          <div class="modal-form__group">
+            <div class="modal-form__field">
+              <label class="modal-form__label" for="name">Ім'я</label>
+              <input
+                class="modal-form__input"
+                type="text"
+                name="name"
+                id="name"
+                autofocus
+                required
+                title="Заповніть ПІБ"
+              />
+              <svg class="modal-form__icon" width="18" height="18">
+                <use href="./images/icon/icon.svg#person-black"></use>
+              </svg>
+            </div>
+            <div class="modal-form__field">
+              <label class="modal-form__label" for="tel">Телефон</label>
+              <input
+                class="modal-form__input"
+                type="tel"
+                name="tel"
+                id="tel"
+                title="Заповніть номер телефону"
+                required
+              />
+              <svg class="modal-form__icon" width="18" height="18">
+                <use href="./images/icon/icon.svg#phone"></use>
+              </svg>
+            </div>
+            <div class="modal-form__field">
+              <label class="modal-form__label" for="mail">Пошта</label>
+              <input
+                class="modal-form__input"
+                type="email"
+                name="mail"
+                id="mail"
+                title="Заповніть пошту"
+                required
+              />
+              <svg class="modal-form__icon" width="18" height="18">
+                <use href="./images/icon/icon.svg#email"></use>
+              </svg>
+            </div>
+            <div class="modal-form__field">
+              <label class="modal-form__label" for="comment">Коментар</label>
+              <textarea
+                class="modal-form__textarea"
+                name="comment"
+                id="comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </div>
+          </div>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="checkbox" value="yes" />
+            <span class="checkbox__box">
+              <svg class="checkbox__icon" width="16" height="15">
+                <use href="./images/icon/icon.svg#check"></use>
+              </svg>
+            </span>
+            Погоджуюся з розсилкою та приймаю&nbsp;
+            <a class="title_accent" href="#">Умови договору</a>
+          </label>
+          <button class="modal-form-button button-primary" type="submit">Відправити</button>
+        </form>
